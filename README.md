@@ -26,3 +26,6 @@ You can find them in the `spec/features` directory.
 ## Development
 
 NOTE: Whenever you change a ruby file, you need to stop the server, and restart it.
+
+## Staging
+URL: http://warm-peak-7899.herokuapp.com/
