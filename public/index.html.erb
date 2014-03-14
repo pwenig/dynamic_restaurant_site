@@ -32,11 +32,12 @@
 
   <dl>
 
-    <dt>Channa Masala - 5.95</dt>
-    <dd>Yummy goodness</dd>
-    
-    <dt>Chicken Tikka Masala - 5.95</dt>
-    <dd>Yummy goodness</dd>
+    <% Menu.new.items.each do |item| %>
+      <td><%= item.name %> - <%= item.price %></td>
+      <td><%= item.description %></td>
+      <% end %>
+
+
   </dl>
 </main>
 
